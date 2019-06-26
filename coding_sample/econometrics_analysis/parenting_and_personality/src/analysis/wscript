@@ -1,0 +1,15 @@
+#! python
+
+
+def build(ctx):
+
+        ctx(
+            features='run_py_script',
+            source='regression.py',
+	    deps=[
+         	  ctx.path_to(ctx, 'OUT_DATA', 'merge.csv'),
+	          ctx.path_to(ctx, 'OUT_DATA', 'merge_female.csv'),
+		  ctx.path_to(ctx, 'OUT_DATA', 'merge_male.csv')],
+            target=ctx.path_to(ctx, 'OUT_ANALYSIS', 'regression_result.tex'),
+            name='regression_result.tex'
+        )

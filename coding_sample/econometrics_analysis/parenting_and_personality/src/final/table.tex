@@ -1,0 +1,117 @@
+\documentclass[%
+    a4paper,            % you can select other formats
+    11pt,               % font size(12pt, 11pt (Standard), ...)
+    bibliography=totoc, % bibliography in table of contents
+]
+{scrartcl}
+
+\usepackage{geometry}   % control side spacing
+\usepackage{setspace}   % control line spacing
+\usepackage{threeparttable} % tables
+\usepackage{booktabs}       % nicer looking tables
+\usepackage{times}
+\usepackage[utf8]{inputenc}
+\usepackage{textgreek}
+   
+\usepackage{graphicx}
+\geometry{left=30mm, right=20mm, top=20mm, bottom=20mm, footskip=10mm} % settings for content part
+
+\begin{document}
+
+
+
+\input{../../out/analysis/regression_result}
+
+
+\begin{table}[htp!]
+	\small
+	\centering
+	\begin{threeparttable}
+		\caption{Factor loadings parental involvement measures}
+		\begin{tabular}{@{}lll@{}}
+			\toprule
+			Item in the Questionnaire & Involvement Mother & Involvement Father \\ \midrule
+			Parents show interest in performance & 0.211 & 0.100 \\
+			Parents take part in parents-evening & 0.148 & 0.091 \\
+			Parents come to teacher office hours & 0.113 & 0.047 \\
+			Parents visit teacher outside office hours & 0.084 & 0.009 \\
+			Parents involved in at least one school activity & 0.162 & 0.093 \\
+			Mother talks about things you do & 0.339 &  \\
+			Mother asks you prior to making decision & 0.358 &  \\
+			Mother expresses opinion on something you do & 0.378 &  \\
+			Mother is able to solve problems with you & 0.364 &  \\
+			Mother asks your opinion on family matters & 0.389 &  \\
+			Mother gives reason for making decision & 0.392 &  \\
+			Mother talks about things that worry you & 0.183 &  \\
+			Mother helps with studying & 0.162 &  \\
+			Father talks about things you do &  & 0.378 \\
+			Father asks you prior to making decision &  & 0.368 \\
+			Father expresses opinion on something you do &  & 0.367 \\
+			Father is able to solve problems with you &  & 0.387 \\
+			Father asks your opinion on family matters &  & 0.373 \\
+			Father gives reason for making decision &  & 0.380 \\
+			Father talks about things that worry you &  & 0.276 \\
+			Father helps with study &  & 0.231 \\ \bottomrule
+		\end{tabular}
+		\begin{tablenotes}[flushleft]
+			\footnotesize
+			\item 
+			Note:
+			the data, including whatever notes are needed.
+		\end{tablenotes}
+	\end{threeparttable}
+\end{table}
+
+
+
+\begin{table}[htp!]
+	\small
+	\centering
+	\begin{threeparttable}
+		\caption{Personality items in the SOEP questionnaires}
+		\begin{tabular}{@{}ll@{}}
+			\toprule
+			Personality trait & Question in the SOEP \\ \midrule
+			Big-5 Personality Traits & Personal Characteristic \\ \midrule
+			& Lively imagination \\
+			Openness & Introduce new ideas \\
+			& Importance of esthetics \\ \midrule
+			& Communicative \\
+			Extraversion & Am outgoing/sociable \\
+			& Reserved (inverted) \\ \midrule
+			& Carryout duties efficiently \\
+			Conscientiousness & Work carefully \\
+			& Am lazy (inverted) \\ \midrule
+			& Can forgive others \\
+			Agreeableness & Considerate, friendly \\
+			& Abrasive towards others (inverted) \\ \midrule
+			& Often worry \\ 
+			Neuroticism & Am nervous \\
+			& Be relaxed, no stress (inverted) \\ \midrule
+			Locus of Control & Opinion \\ \midrule
+			& Success Through Working Hard \\
+			& Control Over My Own Destiny \\
+			Internal Locus of Control & Soc., Pol. Activity Makes A Difference \\
+			& Doubt Myself Faced Difficulties (inverted) \\
+			& Have Little Control Over My Life (inverted) \\ \midrule
+			& In Comparison Do Not Have What I Deserve \\
+			& What You Achieve Is A Question Of Luck \\
+			External Locus of Control & Others Have Often Controlled My Life \\
+			& Opportunities Depend On Soc. Circumstance \\
+			& Talents You Have At Birth Are V. Import. \\ \bottomrule
+		\end{tabular}
+		\begin{tablenotes}[flushleft]
+			\footnotesize
+			\item 
+			Note:
+			the data, including whatever notes are needed.
+		\end{tablenotes}
+	\end{threeparttable}
+\end{table}
+
+
+
+\pagebreak
+\nocite{*}
+
+\end{document}

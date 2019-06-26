@@ -1,0 +1,54 @@
+#! python
+
+
+def build(ctx):
+   
+    ctx(
+        features='run_py_script',
+        source='visual.py',
+	deps=ctx.path_to(ctx, 'OUT_ANALYSIS', 'regression_result.tex'),
+        target=ctx.path_to(ctx, 'OUT_FIGURES', 'figure_{}.jpeg'.format('maternal_involvement_personality')),
+        name='figure_{}'.format('maternal_involvement_personality')
+        )
+
+    ctx(
+        features='run_py_script',
+        source='visual.py',
+	deps=ctx.path_to(ctx, 'OUT_ANALYSIS', 'regression_result.tex'),
+        target=ctx.path_to(ctx, 'OUT_FIGURES', 'figure_{}.jpeg'.format('paternal_involvement_personality')),
+            name='figure_{}'.format('paternal_involvement_personality')
+        )
+
+    ctx(
+        features='run_py_script',
+        source='visual.py',
+	deps=ctx.path_to(ctx, 'OUT_ANALYSIS', 'regression_result.tex'),
+        target=ctx.path_to(ctx, 'OUT_FIGURES', 'figure_{}.jpeg'.format('parental_involvement_difference')),
+            name='figure_{}'.format('parental_involvement_difference')
+        )
+
+    ctx(
+        features='run_py_script',
+        source='visual.py',
+	deps=ctx.path_to(ctx, 'OUT_ANALYSIS', 'regression_result.tex'),
+        target=ctx.path_to(ctx, 'OUT_FIGURES', 'figure_{}.jpeg'.format('parental_involvement_added_up')),
+            name='figure_{}'.format('parental_involvement_added_up')
+        )
+
+    ctx(
+            features='tex',
+            source='table.tex',
+	    deps=ctx.path_to(ctx, 'OUT_ANALYSIS', 'regression_result.tex'),
+	    target=ctx.path_to(ctx, 'OUT_TABLES', 'table.pdf'),
+            prompt=1,
+            name='table'
+        )
+
+    ctx.install_files(
+            ctx.env.PROJECT_PATHS['OUT_TABLES'].abspath(),
+            'table.pdf'
+        )
+
+    ctx.add_group()
+
+

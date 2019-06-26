@@ -1,0 +1,11 @@
+#! python
+
+
+def build(ctx):
+
+    for s in 'child_basic', 'measure_personality_children', 'measure_parental_involvment', 'hh_control', 'children_control', 'measure_personality_adult', 'children_siblings', 'measure_personality_mother', 'measure_personality_father', 'father_control', 'mother_control':
+        ctx(
+            features='run_py_script',
+            source=s + '.py',
+            target=ctx.path_to(ctx, 'OUT_DATA', s + '.csv'),
+            name=s)

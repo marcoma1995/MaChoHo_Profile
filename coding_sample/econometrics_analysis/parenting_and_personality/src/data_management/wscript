@@ -1,0 +1,21 @@
+def build(ctx):
+
+    for s in 'merge', 'merge_male', 'merge_female':
+
+        ctx(
+            features='run_py_script',
+            source=s + '.py',
+            deps=[
+                ctx.path_to(ctx, 'OUT_DATA', 'measure_personality_children.csv'),
+                ctx.path_to(ctx, 'OUT_DATA', 'measure_parental_involvment.csv'),
+                ctx.path_to(ctx, 'OUT_DATA', 'children_control.csv'),
+                ctx.path_to(ctx, 'OUT_DATA', 'mother_control.csv'),
+                ctx.path_to(ctx, 'OUT_DATA', 'father_control.csv'),
+                ctx.path_to(ctx, 'OUT_DATA', 'hh_control.csv'),
+		ctx.path_to(ctx, 'OUT_DATA', 'child_basic.csv'),
+		ctx.path_to(ctx, 'OUT_DATA', 'measure_personality_mother.csv'),
+		ctx.path_to(ctx, 'OUT_DATA', 'measure_personality_father.csv'),
+		ctx.path_to(ctx, 'OUT_DATA', 'children_siblings.csv')
+            ],
+            target=ctx.path_to(ctx, 'OUT_DATA', s + '.csv'),
+            name=s)

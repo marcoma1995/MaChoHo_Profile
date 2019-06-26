@@ -1,0 +1,416 @@
+nlsy_name,readable_name,survey_year,label
+C0000100,childid,invariant,id code of child
+C0000200,momid,invariant,id code of mother of child
+C0005800,birth_order,invariant,birth order of child
+C0564000,anxiety_mood,1986,ch has sud chgs in mood/feelng
+C0564100,anxiety_complain,1986,ch cmplns no one loves him/her
+C0564200,headstrong_tense,1986,"ch is high strung, tense, nerv"
+C0564300,antisocial_cheat,1986,child cheats or tells lies
+C0564400,anxiety_fearful,1986,ch is too fearful or anxious
+C0564500,headstrong_argues,1986,child argues too much
+C0564600,hyperactive_concentration,1986,ch has diff concentrating
+C0564700,hyperactive_confused,1986,ch is easily confused/in fog
+C0564800,antisocial_bully,1986,ch bullies/is cruel to others
+C0564900,headstrong_disob_home,1986,ch is disobedient at home
+C0565000,antisocial_notsorry,1986,ch not sorry after misbehaving
+C0565100,peer_getalong,1986,trbl gettng along w/oth chldrn
+C0565200,hyperactive_impulsive,1986,"impulsive, acts w/out thinking"
+C0565300,anxiety_worthless,1986,ch feels worthless or inferior
+C0565400,peer_notliked,1986,ch not liked by other children
+C0565500,hyperactive_thoughts,1986,diff getting mind off thoughts
+C0565600,hyperactive_restless,1986,ch is restless or over active
+C0565700,headstrong_stubborn,1986,"ch stubborn, sullen, irritable"
+C0565800,headstrong_temper,1986,child has a very strong temper
+C0565900,anxiety_sad,1986,child is unhappy/sad/depressed
+C0566000,peer_withdrawn,1986,child is withdrawn
+C0566100,antisocial_break,1986,child breaks things on purpose
+C0566200,dependent_clings,1986,child clings to adults
+C0566300,dependent_cries,1986,child cries too much
+C0566400,dependent_attention,1986,chd demands lots of attention
+C0566500,dependent_dependent,1986,child too dependent on others
+C0566600,antisocial_disob_school,1986,ch is disobedient at school
+C0566700,antisocial_teachers,1986,trouble getting along w/tchrs
+C0780800,anxiety_mood,1988,ch has sud chgs in mood/feelng
+C0780900,anxiety_complain,1988,ch cmplns no one loves him/her
+C0781000,headstrong_tense,1988,"ch is high strung, tense, nerv"
+C0781100,antisocial_cheat,1988,child cheats or tells lies
+C0781200,anxiety_fearful,1988,ch is too fearful or anxious
+C0781300,headstrong_argues,1988,child argues too much
+C0781400,hyperactive_concentration,1988,ch has diff concentrating
+C0781500,hyperactive_confused,1988,ch is easily confused/in fog
+C0781600,antisocial_bully,1988,ch bullies/is cruel to others
+C0781700,headstrong_disob_home,1988,ch is disobedient at home
+C0781800,antisocial_notsorry,1988,ch not sorry after misbehaving
+C0781900,peer_getalong,1988,trbl gettng along w/oth chldrn
+C0782000,hyperactive_impulsive,1988,"impulsive, acts w/out thinking"
+C0782100,anxiety_worthless,1988,ch feels worthless or inferior
+C0782200,peer_notliked,1988,ch not liked by other children
+C0782300,hyperactive_thoughts,1988,diff getting mind off thoughts
+C0782400,hyperactive_restless,1988,ch is restless or over active
+C0782500,headstrong_stubborn,1988,"ch stubborn, sullen, irritable"
+C0782600,headstrong_temper,1988,child has a very strong temper
+C0782700,anxiety_sad,1988,child is unhappy/sad/depressed
+C0782800,peer_withdrawn,1988,child is withdrawn
+C0782900,antisocial_break,1988,child breaks things on purpose
+C0783000,dependent_clings,1988,child clings to adults
+C0783100,dependent_cries,1988,child cries too much
+C0783200,dependent_attention,1988,chd demands lots of attention
+C0783300,dependent_dependent,1988,child too dependent on others
+C0783400,antisocial_disob_school,1988,ch is disobedient at school
+C0783500,antisocial_teachers,1988,trouble getting along w/tchrs
+C0783600,additional_gethim,1988,feels othrs out to get him/her
+C0783700,additional_hangout,1988,hang arnd kids who get in trbl
+C0783800,additional_secretive,1988,child is secretive
+C0783900,additional_worries,1988,child worries too much
+C0983800,anxiety_mood,1990,ch has sud chgs in mood/feelng
+C0983900,anxiety_complain,1990,ch cmplns no one loves him/her
+C0984000,headstrong_tense,1990,"ch is high strung, tense, nerv"
+C0984100,antisocial_cheat,1990,child cheats or tells lies
+C0984200,anxiety_fearful,1990,ch is too fearful or anxious
+C0984300,headstrong_argues,1990,child argues too much
+C0984400,hyperactive_concentration,1990,ch has diff concentrating
+C0984500,hyperactive_confused,1990,ch is easily confused/in fog
+C0984600,antisocial_bully,1990,ch bullies/is cruel to others
+C0984700,headstrong_disob_home,1990,ch is disobedient at home
+C0984800,antisocial_notsorry,1990,ch not sorry after misbehaving
+C0984900,peer_getalong,1990,trbl gettng along w/oth chldrn
+C0985000,hyperactive_impulsive,1990,"impulsive, acts w/out thinking"
+C0985100,anxiety_worthless,1990,ch feels worthless or inferior
+C0985200,peer_notliked,1990,ch not liked by other children
+C0985300,hyperactive_thoughts,1990,diff getting mind off thoughts
+C0985400,hyperactive_restless,1990,ch is restless or over active
+C0985500,headstrong_stubborn,1990,"ch stubborn, sullen, irritable"
+C0985600,headstrong_temper,1990,child has a very strong temper
+C0985700,anxiety_sad,1990,child is unhappy/sad/depressed
+C0985800,peer_withdrawn,1990,child is withdrawn
+C0985900,antisocial_break,1990,child breaks things on purpose
+C0986000,dependent_clings,1990,child clings to adults
+C0986100,dependent_cries,1990,child cries too much
+C0986200,dependent_attention,1990,chd demands lots of attention
+C0986300,dependent_dependent,1990,child too dependent on others
+C0986400,additional_gethim,1990,feels othrs out to get him/her
+C0986500,additional_hangout,1990,hang arnd kids who get in trbl
+C0986600,additional_secretive,1990,child is secretive
+C0986700,additional_worries,1990,child worries too much
+C0986800,antisocial_disob_school,1990,ch is disobedient at school
+C0986900,antisocial_teachers,1990,trouble getting along w/tchrs
+C1182100,anxiety_mood,1992,ch has sud chgs in mood/feelng
+C1182200,anxiety_complain,1992,ch cmplns no one loves him/her
+C1182300,headstrong_tense,1992,"ch is high strung, tense, nerv"
+C1182400,antisocial_cheat,1992,child cheats or tells lies
+C1182500,anxiety_fearful,1992,ch is too fearful or anxious
+C1182600,headstrong_argues,1992,child argues too much
+C1182700,hyperactive_concentration,1992,ch has diff concentrating
+C1182800,hyperactive_confused,1992,ch is easily confused/in fog
+C1182900,antisocial_bully,1992,ch bullies/is cruel to others
+C1183000,headstrong_disob_home,1992,ch is disobedient at home
+C1183100,antisocial_notsorry,1992,ch not sorry after misbehaving
+C1183200,peer_getalong,1992,trbl gettng along w/oth chldrn
+C1183300,hyperactive_impulsive,1992,"impulsive, acts w/out thinking"
+C1183400,anxiety_worthless,1992,ch feels worthless or inferior
+C1183500,peer_notliked,1992,ch not liked by other children
+C1183600,hyperactive_thoughts,1992,diff getting mind off thoughts
+C1183700,hyperactive_restless,1992,ch is restless or over active
+C1183800,headstrong_stubborn,1992,"ch stubborn, sullen, irritable"
+C1183900,headstrong_temper,1992,child has a very strong temper
+C1184000,anxiety_sad,1992,child is unhappy/sad/depressed
+C1184100,peer_withdrawn,1992,child is withdrawn
+C1184200,antisocial_break,1992,child breaks things on purpose
+C1184300,dependent_clings,1992,child clings to adults
+C1184400,dependent_cries,1992,child cries too much
+C1184500,dependent_attention,1992,chd demands lots of attention
+C1184600,dependent_dependent,1992,child too dependent on others
+C1184700,additional_gethim,1992,feels othrs out to get him/her
+C1184800,additional_hangout,1992,hang arnd kids who get in trbl
+C1184900,additional_secretive,1992,child is secretive
+C1185000,additional_worries,1992,child worries too much
+C1185100,antisocial_disob_school,1992,ch is disobedient at school
+C1185200,antisocial_teachers,1992,trouble getting along w/tchrs
+C1434500,anxiety_mood,1994,ch has sud chgs in mood/feelng
+C1434600,anxiety_complain,1994,ch cmplns no one loves him/her
+C1434700,headstrong_tense,1994,"ch is high strung, tense, nerv"
+C1434800,antisocial_cheat,1994,child cheats or tells lies
+C1434900,anxiety_fearful,1994,ch is too fearful or anxious
+C1435000,headstrong_argues,1994,child argues too much
+C1435100,hyperactive_concentration,1994,ch has diff concentrating
+C1435200,hyperactive_confused,1994,ch is easily confused/in fog
+C1435300,antisocial_bully,1994,ch bullies/is cruel to others
+C1435400,headstrong_disob_home,1994,ch is disobedient at home
+C1435500,antisocial_notsorry,1994,ch not sorry after misbehaving
+C1435600,peer_getalong,1994,trbl gettng along w/oth chldrn
+C1435700,hyperactive_impulsive,1994,"impulsive, acts w/out thinking"
+C1435800,anxiety_worthless,1994,ch feels worthless or inferior
+C1435900,peer_notliked,1994,ch not liked by other children
+C1436000,hyperactive_thoughts,1994,diff getting mind off thoughts
+C1436100,hyperactive_restless,1994,ch is restless or over active
+C1436200,headstrong_stubborn,1994,"ch stubborn, sullen, irritable"
+C1436300,headstrong_temper,1994,child has a very strong temper
+C1436400,anxiety_sad,1994,child is unhappy/sad/depressed
+C1436500,peer_withdrawn,1994,child is withdrawn
+C1436600,antisocial_break,1994,child breaks things on purpose
+C1436700,dependent_clings,1994,child clings to adults
+C1436800,dependent_cries,1994,child cries too much
+C1436900,dependent_attention,1994,chd demands lots of attention
+C1437000,dependent_dependent,1994,child too dependent on others
+C1437100,additional_gethim,1994,feels othrs out to get him/her
+C1437200,additional_hangout,1994,hang arnd kids who get in trbl
+C1437300,additional_secretive,1994,child is secretive
+C1437400,additional_worries,1994,child worries too much
+C1437500,antisocial_disob_school,1994,ch is disobedient at school
+C1437600,antisocial_teachers,1994,trouble getting along w/tchrs
+C1636100,anxiety_mood,1996,ch has sud chgs in mood/feelng
+C1636200,anxiety_complain,1996,ch cmplns no one loves him/her
+C1636300,headstrong_tense,1996,"ch is high strung, tense, nerv"
+C1636400,antisocial_cheat,1996,child cheats or tells lies
+C1636500,anxiety_fearful,1996,ch is too fearful or anxious
+C1636600,headstrong_argues,1996,child argues too much
+C1636700,hyperactive_concentration,1996,ch has diff concentrating
+C1636800,hyperactive_confused,1996,ch is easily confused/in fog
+C1636900,antisocial_bully,1996,ch bullies/is cruel to others
+C1637000,headstrong_disob_home,1996,ch is disobedient at home
+C1637100,antisocial_notsorry,1996,ch not sorry after misbehaving
+C1637200,peer_getalong,1996,trbl gettng along w/oth chldrn
+C1637300,hyperactive_impulsive,1996,"impulsive, acts w/out thinking"
+C1637400,anxiety_worthless,1996,ch feels worthless or inferior
+C1637500,peer_notliked,1996,ch not liked by other children
+C1637600,hyperactive_thoughts,1996,diff getting mind off thoughts
+C1637700,hyperactive_restless,1996,ch is restless or over active
+C1637800,headstrong_stubborn,1996,"ch stubborn, sullen, irritable"
+C1637900,headstrong_temper,1996,child has a very strong temper
+C1638000,anxiety_sad,1996,child is unhappy/sad/depressed
+C1638100,peer_withdrawn,1996,child is withdrawn
+C1638200,antisocial_break,1996,child breaks things on purpose
+C1638300,dependent_clings,1996,child clings to adults
+C1638400,dependent_cries,1996,child cries too much
+C1638500,dependent_attention,1996,chd demands lots of attention
+C1638600,dependent_dependent,1996,child too dependent on others
+C1638700,additional_gethim,1996,feels othrs out to get him/her
+C1638800,additional_hangout,1996,hang arnd kids who get in trbl
+C1638900,additional_secretive,1996,child is secretive
+C1639000,additional_worries,1996,child worries too much
+C1639100,antisocial_disob_school,1996,ch is disobedient at school
+C1639200,antisocial_teachers,1996,trouble getting along w/tchrs
+C1977000,anxiety_mood,1998,ch has sud chgs in mood/feelng
+C1977100,anxiety_complain,1998,ch cmplns no one loves him/her
+C1977200,headstrong_tense,1998,"ch is high strung, tense, nerv"
+C1977300,antisocial_cheat,1998,child cheats or tells lies
+C1977400,anxiety_fearful,1998,ch is too fearful or anxious
+C1977500,headstrong_argues,1998,child argues too much
+C1977600,hyperactive_concentration,1998,ch has diff concentrating
+C1977700,hyperactive_confused,1998,ch is easily confused/in fog
+C1977800,antisocial_bully,1998,ch bullies/is cruel to others
+C1977900,headstrong_disob_home,1998,ch is disobedient at home
+C1978000,antisocial_notsorry,1998,ch not sorry after misbehaving
+C1978100,peer_getalong,1998,trbl gettng along w/oth chldrn
+C1978200,hyperactive_impulsive,1998,"impulsive, acts w/out thinking"
+C1978300,anxiety_worthless,1998,ch feels worthless or inferior
+C1978400,peer_notliked,1998,ch not liked by other children
+C1978500,hyperactive_thoughts,1998,diff getting mind off thoughts
+C1978600,hyperactive_restless,1998,ch is restless or over active
+C1978700,headstrong_stubborn,1998,"ch stubborn, sullen, irritable"
+C1978800,headstrong_temper,1998,child has a very strong temper
+C1978900,anxiety_sad,1998,child is unhappy/sad/depressed
+C1979000,peer_withdrawn,1998,child is withdrawn
+C1979100,antisocial_break,1998,child breaks things on purpose
+C1979200,dependent_clings,1998,child clings to adults
+C1979300,dependent_cries,1998,child cries too much
+C1979400,dependent_attention,1998,chd demands lots of attention
+C1979500,dependent_dependent,1998,child too dependent on others
+C1979600,additional_gethim,1998,feels othrs out to get him/her
+C1979700,additional_hangout,1998,hang arnd kids who get in trbl
+C1979800,additional_secretive,1998,child is secretive
+C1979900,additional_worries,1998,child worries too much
+C1980000,antisocial_disob_school,1998,ch is disobedient at school
+C1980100,antisocial_teachers,1998,trouble getting along w/tchrs
+C2432600,anxiety_mood,2000,ch has sud chgs in mood/feelng
+C2432700,anxiety_complain,2000,ch cmplns no one loves him/her
+C2432800,headstrong_tense,2000,"ch is high strung, tense, nerv"
+C2432900,antisocial_cheat,2000,child cheats or tells lies
+C2433000,anxiety_fearful,2000,ch is too fearful or anxious
+C2433100,headstrong_argues,2000,child argues too much
+C2433200,hyperactive_concentration,2000,ch has diff concentrating
+C2433300,hyperactive_confused,2000,ch is easily confused/in fog
+C2433400,antisocial_bully,2000,ch bullies/is cruel to others
+C2433500,headstrong_disob_home,2000,ch is disobedient at home
+C2433600,antisocial_notsorry,2000,ch not sorry after misbehaving
+C2433700,peer_getalong,2000,trbl gettng along w/oth chldrn
+C2433800,hyperactive_impulsive,2000,"impulsive, acts w/out thinking"
+C2433900,anxiety_worthless,2000,ch feels worthless or inferior
+C2434000,peer_notliked,2000,ch not liked by other children
+C2434100,hyperactive_thoughts,2000,diff getting mind off thoughts
+C2434200,hyperactive_restless,2000,ch is restless or over active
+C2434300,headstrong_stubborn,2000,"ch stubborn, sullen, irritable"
+C2434400,headstrong_temper,2000,child has a very strong temper
+C2434500,anxiety_sad,2000,child is unhappy/sad/depressed
+C2434600,peer_withdrawn,2000,child is withdrawn
+C2434700,antisocial_break,2000,child breaks things on purpose
+C2434800,dependent_clings,2000,child clings to adults
+C2434900,dependent_cries,2000,child cries too much
+C2435000,dependent_attention,2000,chd demands lots of attention
+C2435100,dependent_dependent,2000,child too dependent on others
+C2435200,additional_gethim,2000,feels othrs out to get him/her
+C2435300,additional_hangout,2000,hang arnd kids who get in trbl
+C2435400,additional_secretive,2000,child is secretive
+C2435500,additional_worries,2000,child worries too much
+C2435600,antisocial_disob_school,2000,ch is disobedient at school
+C2435700,antisocial_teachers,2000,trouble getting along w/tchrs
+C2737300,anxiety_mood,2002,ch has sud chgs in mood/feelng
+C2737400,anxiety_complain,2002,complains no one loves him/her
+C2737500,headstrong_tense,2002,"ch is high strung, tense, nerv"
+C2737600,antisocial_cheat,2002,child cheats or tells lies
+C2737700,anxiety_fearful,2002,ch is too fearful or anxious
+C2737800,headstrong_argues,2002,child argues too much
+C2737900,hyperactive_concentration,2002,ch has diff concentrating
+C2738000,hyperactive_confused,2002,ch is easily confused/in fog
+C2738100,antisocial_bully,2002,ch bullies/is cruel to others
+C2738200,headstrong_disob_home,2002,ch is disobedient at home
+C2738300,antisocial_notsorry,2002,ch not sorry after misbehaving
+C2738400,peer_getalong,2002,trbl gettng along w/oth chldrn
+C2738500,hyperactive_impulsive,2002,"impulsive, acts w/out thinking"
+C2738600,anxiety_worthless,2002,ch feels worthless or inferior
+C2738700,peer_notliked,2002,ch not liked by other children
+C2738800,hyperactive_thoughts,2002,diff getting mind off thoughts
+C2738900,hyperactive_restless,2002,ch is restless or over active
+C2739000,headstrong_stubborn,2002,"ch stubborn, sullen, irritable"
+C2739100,headstrong_temper,2002,child has a very strong temper
+C2739200,anxiety_sad,2002,child is unhappy/sad/depressed
+C2739300,peer_withdrawn,2002,child is withdrawn
+C2739400,antisocial_break,2002,child breaks things on purpose
+C2739500,dependent_clings,2002,child clings to adults
+C2739600,dependent_cries,2002,child cries too much
+C2739700,dependent_attention,2002,ch demands a lot of attention
+C2739800,dependent_dependent,2002,child too dependent on others
+C2739900,additional_gethim,2002,feels othrs out to get him/her
+C2740000,additional_hangout,2002,hang arnd kids who get in trbl
+C2740100,additional_secretive,2002,child is secretive
+C2740200,additional_worries,2002,child worries too much
+C2740400,antisocial_disob_school,2002,ch is disobedient at school
+C2740500,antisocial_teachers,2002,trouble getting along w/tchrs
+C3009700,anxiety_mood,2004,ch has sud chgs in mood/feelng
+C3009800,anxiety_complain,2004,complains no one loves him/her
+C3009900,headstrong_tense,2004,"ch is high strung, tense, nerv"
+C3010000,antisocial_cheat,2004,child cheats or tells lies
+C3010100,anxiety_fearful,2004,ch is too fearful or anxious
+C3010200,headstrong_argues,2004,child argues too much
+C3010300,hyperactive_concentration,2004,ch has diff concentrating
+C3010400,hyperactive_confused,2004,ch is easily confused/in fog
+C3010500,antisocial_bully,2004,ch bullies/is cruel to others
+C3010600,headstrong_disob_home,2004,ch is disobedient at home
+C3010700,antisocial_notsorry,2004,ch not sorry after misbehaving
+C3010800,peer_getalong,2004,trbl gettng along w/oth chldrn
+C3010900,hyperactive_impulsive,2004,"impulsive, acts w/out thinking"
+C3011000,anxiety_worthless,2004,ch feels worthless or inferior
+C3011100,peer_notliked,2004,ch not liked by other children
+C3011200,hyperactive_thoughts,2004,diff getting mind off thoughts
+C3011300,hyperactive_restless,2004,ch is restless or over active
+C3011400,headstrong_stubborn,2004,"ch stubborn, sullen, irritable"
+C3011500,headstrong_temper,2004,child has a very strong temper
+C3011600,anxiety_sad,2004,child is unhappy/sad/depressed
+C3011700,peer_withdrawn,2004,child is withdrawn
+C3011800,antisocial_break,2004,child breaks things on purpose
+C3011900,dependent_clings,2004,child clings to adults
+C3012000,dependent_cries,2004,child cries too much
+C3012100,dependent_attention,2004,ch demands a lot of attention
+C3012200,dependent_dependent,2004,child too dependent on others
+C3012300,additional_gethim,2004,feels othrs out to get him/her
+C3012400,additional_hangout,2004,hang arnd kids who get in trbl
+C3012500,additional_secretive,2004,child is secretive
+C3012600,additional_worries,2004,child worries too much
+C3012800,antisocial_disob_school,2004,ch is disobedient at school
+C3012900,antisocial_teachers,2004,trouble getting along w/tchrs
+C3419700,anxiety_mood,2006,ch has sud chgs in mood/feelng
+C3419800,anxiety_complain,2006,complains no one loves him/her
+C3419900,headstrong_tense,2006,"ch is high strung, tense, nerv"
+C3420000,antisocial_cheat,2006,child cheats or tells lies
+C3420100,anxiety_fearful,2006,ch is too fearful or anxious
+C3420200,headstrong_argues,2006,child argues too much
+C3420300,hyperactive_concentration,2006,ch has diff concentrating
+C3420400,hyperactive_confused,2006,ch is easily confused/in fog
+C3420500,antisocial_bully,2006,ch bullies/is cruel to others
+C3420600,headstrong_disob_home,2006,ch is disobedient at home
+C3420700,antisocial_notsorry,2006,ch not sorry after misbehaving
+C3420800,peer_getalong,2006,trbl gettng along w/oth chldrn
+C3420900,hyperactive_impulsive,2006,"impulsive, acts w/out thinking"
+C3421000,anxiety_worthless,2006,ch feels worthless or inferior
+C3421100,peer_notliked,2006,ch not liked by other children
+C3421200,hyperactive_thoughts,2006,diff getting mind off thoughts
+C3421300,hyperactive_restless,2006,ch is restless or over active
+C3421400,headstrong_stubborn,2006,"ch stubborn, sullen, irritable"
+C3421500,headstrong_temper,2006,child has a very strong temper
+C3421600,anxiety_sad,2006,child is unhappy/sad/depressed
+C3421700,peer_withdrawn,2006,child is withdrawn
+C3421800,antisocial_break,2006,child breaks things on purpose
+C3421900,dependent_clings,2006,child clings to adults
+C3422000,dependent_cries,2006,child cries too much
+C3422100,dependent_attention,2006,ch demands a lot of attention
+C3422200,dependent_dependent,2006,child too dependent on others
+C3422300,additional_gethim,2006,feels othrs out to get him/her
+C3422400,additional_hangout,2006,hang arnd kids who get in trbl
+C3422500,additional_secretive,2006,child is secretive
+C3422600,additional_worries,2006,child worries too much
+C3422800,antisocial_disob_school,2006,ch is disobedient at school
+C3422900,antisocial_teachers,2006,trouble getting along w/tchrs
+C3945600,anxiety_mood,2008,ch has sud chgs in mood/feelng
+C3945700,anxiety_complain,2008,complains no one loves him/her
+C3945800,headstrong_tense,2008,"ch is high strung, tense, nerv"
+C3945900,antisocial_cheat,2008,child cheats or tells lies
+C3946000,anxiety_fearful,2008,ch is too fearful or anxious
+C3946100,headstrong_argues,2008,child argues too much
+C3946200,hyperactive_concentration,2008,ch has diff concentrating
+C3946300,hyperactive_confused,2008,ch is easily confused/in fog
+C3946400,antisocial_bully,2008,ch bullies/is cruel to others
+C3946500,headstrong_disob_home,2008,ch is disobedient at home
+C3946600,antisocial_notsorry,2008,ch not sorry after misbehaving
+C3946700,peer_getalong,2008,trbl gettng along w/oth chldrn
+C3946800,hyperactive_impulsive,2008,"impulsive, acts w/out thinking"
+C3946900,anxiety_worthless,2008,ch feels worthless or inferior
+C3947000,peer_notliked,2008,ch not liked by other children
+C3947100,hyperactive_thoughts,2008,diff getting mind off thoughts
+C3947200,hyperactive_restless,2008,ch is restless or over active
+C3947300,headstrong_stubborn,2008,"ch stubborn, sullen, irritable"
+C3947400,headstrong_temper,2008,child has a very strong temper
+C3947500,anxiety_sad,2008,child is unhappy/sad/depressed
+C3947600,peer_withdrawn,2008,child is withdrawn
+C3947700,antisocial_break,2008,child breaks things on purpose
+C3947800,dependent_clings,2008,child clings to adults
+C3947900,dependent_cries,2008,child cries too much
+C3948000,dependent_attention,2008,ch demands a lot of attention
+C3948100,dependent_dependent,2008,child too dependent on others
+C3948200,additional_gethim,2008,feels othrs out to get him/her
+C3948300,additional_hangout,2008,hang arnd kids who get in trbl
+C3948400,additional_secretive,2008,child is secretive
+C3948500,additional_worries,2008,child worries too much
+C3948700,antisocial_disob_school,2008,ch is disobedient at school
+C3948800,antisocial_teachers,2008,trouble getting along w/tchrs
+C5189700,anxiety_mood,2010,ch has sud chgs in mood/feelng
+C5189800,anxiety_complain,2010,complains no one loves him/her
+C5189900,headstrong_tense,2010,"ch is high strung, tense, nerv"
+C5190000,antisocial_cheat,2010,child cheats or tells lies
+C5190100,anxiety_fearful,2010,ch is too fearful or anxious
+C5190200,headstrong_argues,2010,child argues too much
+C5190300,hyperactive_concentration,2010,ch has diff concentrating
+C5190400,hyperactive_confused,2010,ch is easily confused/in fog
+C5190500,antisocial_bully,2010,ch bullies/is cruel to others
+C5190600,headstrong_disob_home,2010,ch is disobedient at home
+C5190700,antisocial_notsorry,2010,ch not sorry after misbehaving
+C5190800,peer_getalong,2010,trbl gettng along w/oth chldrn
+C5190900,hyperactive_impulsive,2010,"impulsive, acts w/out thinking"
+C5191000,anxiety_worthless,2010,ch feels worthless or inferior
+C5191100,peer_notliked,2010,ch not liked by other children
+C5191200,hyperactive_thoughts,2010,diff getting mind off thoughts
+C5191300,hyperactive_restless,2010,ch is restless or over active
+C5191400,headstrong_stubborn,2010,"ch stubborn, sullen, irritable"
+C5191500,headstrong_temper,2010,child has a very strong temper
+C5191600,anxiety_sad,2010,child is unhappy/sad/depressed
+C5191700,peer_withdrawn,2010,child is withdrawn
+C5191800,antisocial_break,2010,child breaks things on purpose
+C5191900,dependent_clings,2010,child clings to adults
+C5192000,dependent_cries,2010,child cries too much
+C5192100,dependent_attention,2010,ch demands a lot of attention
+C5192200,dependent_dependent,2010,child too dependent on others
+C5192300,additional_gethim,2010,feels othrs out to get him/her
+C5192400,additional_hangout,2010,hang arnd kids who get in trbl
+C5192500,additional_secretive,2010,child is secretive
+C5192600,additional_worries,2010,child worries too much
+C5192800,antisocial_disob_school,2010,ch is disobedient at school
+C5192900,antisocial_teachers,2010,trouble getting along w/tchrs

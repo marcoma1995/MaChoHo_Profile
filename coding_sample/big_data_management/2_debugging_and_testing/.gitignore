@@ -1,0 +1,101 @@
+P*-blx.bib
+*.asv
+*.aux
+*.bbl
+*.bcf
+*.bib_*.utf8
+*.blg
+*.dvi
+*.ent
+*.fff
+*.fls
+*.glo
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.mod
+*.nav
+*.o
+*.out
+*.pdf
+*.pdfsync
+*.prj
+*.pyc
+*.run.xml
+*.snm
+*.sublime-*
+*.svn
+*.tmproj
+*.toc
+*.ttt
+*.vrb
+<<<<<<< HEAD
+*.jpg
+**/desktop.ini
+=======
+>>>>>>> origin/marcoma1995
+.waf*
+waf-*
+waf3-*
+*latexmk
+*synctex.gz
+.*
+!.environment.osx.yml
+!.environment.windows.yml
+!.environment.linux.yml
+!.env
+.*pdfsvn
+__pycache__
+analysis_out
+<<<<<<< HEAD
+<<<<<<< HEAD
+bld
+=======
+<<<<<<< HEAD
+>>>>>>> origin/marcoma1995
+=======
+>>>>>>> 14416835e5a2d4e1b19ca5375b6562488be1292f
+>>>>>>> 491c99026610f9a811d29cc0d0d4d7595ee7d9e2
+=======
+>>>>>>> 97e59bef6d117eab8f1cde1aee06c5a4122a559c
+build
+Pdebug
+Debug
+final_out
+formatted_data
+project_documentation
+scons.py
+test
+Test
+textmatetostata.do
+fake
+full
+~$*
+Thumbs.db
+___*
+!.gitignore
+!.mywaflib
+.env/workaround.bat
+.env/installed_conda_pkgs
+.env/installed_pip_pkgs
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+.env/installed_spec.json
+.bak
+=======
+.env/installed_spec.json 
+>>>>>>> origin/marcoma1995
+=======
+.env/installed_spec.json 
+=======
+.env/installed_spec.json 
+>>>>>>> 14416835e5a2d4e1b19ca5375b6562488be1292f
+>>>>>>> 491c99026610f9a811d29cc0d0d4d7595ee7d9e2
+=======
+.env/installed_spec.json
+
+>>>>>>> 97e59bef6d117eab8f1cde1aee06c5a4122a559c

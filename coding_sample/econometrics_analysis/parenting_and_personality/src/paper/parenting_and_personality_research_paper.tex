@@ -1,0 +1,273 @@
+\documentclass[%
+    a4paper,            % you can select other formats
+    11pt,               % font size(12pt, 11pt (Standard), ...)
+    bibliography=totoc, % bibliography in table of contents
+]
+{scrartcl}
+
+\usepackage{geometry}   % control side spacing
+\usepackage{setspace}   % control line spacing
+\usepackage{amsmath}    % math
+\usepackage{hyperref}   % links
+\usepackage{natbib}     % bibliography.
+\usepackage{graphicx}   % graphics.
+\usepackage{threeparttable} % tables
+\usepackage{booktabs}       % nicer looking tables
+\usepackage{times}
+\usepackage{flafter} 
+\usepackage[utf8]{inputenc}
+\usepackage{textgreek}
+\usepackage{graphicx}
+\geometry{left=30mm, right=20mm, top=20mm, bottom=20mm, footskip=10mm} % settings for content part
+
+\begin{document}
+\begin{titlepage}
+	\centering
+	
+	{\huge University of Bonn \par}
+	\vspace{1cm}
+	{\LARGE Effective Programming for Economists \par}
+	\vspace{1.5cm}
+	{\Huge\bfseries Parenting and Personality of Children\par}
+	\vspace{2cm}
+	{\LARGE\itshape Cho Ho Ma Marco\par}
+	\vfill
+	{\Large supervised by\par
+		Prof. Dr. Hans-Martin von Gaudecker \\[0.2cm]
+		}
+	
+	\vfill
+	
+	% Bottom of the page
+	{\Large \today\par}
+\end{titlepage}
+\pagebreak
+\onehalfspacing
+\tableofcontents
+
+
+\pagebreak
+
+
+\section{Introduction}
+The personality of individuals starts developing at an early stage in life. A major role in shaping individuals plays the social environment. Especially in early stageds in life, parents are one of the most important elements of the social environment. (Caspi and Roberts, 2001 and Caspi et al. (2005))\footnote{See Caspi and Roberts (2001) and and Caspi et al. (2005) for a broad literature review on personality development.}. Because of this, many aspects of individuals are transmitted from one generation to the next. Furthermore, recent research has shown that attitudes and personality matter for socio-economic outcomes (e. g. Feinstein (2000) and Heckman et al. (2006)).  Thus, more research... transmission of personality might have important implications for intergenerational mobility.\newline
+We study the development of personality traits in children which are shown by the prior literature to be relevant for later socio-economic outcomes. We assess the role of parents in the formation of the personality of their Kids. Our empirical analysis is line with theoretical frameworks proposed Bisin and Verdier (2001) and Doepke and Zibotti (2017) who highlight the major role of parents in the social environment of children. As proposed by Doepke and Zibotti, we assume that parents choose the parenting style to shape their kids’ preferences, such that it maximizes the child’s lifetime utility, given the parents’ preferences and socio-economic environment.\newline
+We follow a similar approach to Zumbuehl et al. (2018) who study the role of parent’s involvement in the transmission of risk and trust attitudes\footnote{  Zumbuehl et al. (2018) find that parents that are more involved with their children are more similar to them. Hence they transfer their own attitudes more strongly.}. However, our work has a key differentiation, then we do not look specifically to how parental involvement might strengthen similarities in personality between parents and their children . Instead, we focus on how parental involvement is shaping those personality characteristics, such as locus of control, conscientiousness and neuroticism, which are strong predictors of educational and labour market success. We assume that parents know what is best for their children and investigate whether parents are able to shape this traits in their children through more involvement, even without displaying these personality themselves. If true this would be an indication that parents have the ability to shape their children through conscious parenting decisions. \newline
+Our results indicate that a stronger involvement  of parents in the children's life has a positive effect on the personality traits that predict better outcomes. Our results also suggest that mothers and fathers might have different roles in the formation of the child's personality. We find that the mother's involvement strongly increases the locus of control trait while the involvement of the fathers increases level of conscientiousness, while reducing the neuroticism score. One might suggest that these results could be driven by a similar channel described by Zumbuehl et al. (2018), where parental involvement strenghtens similarities between parents and children. Indeed, we find that parents that are more involved in their children's upbringing also display higher levels of internal locus of control, conscientiousness and lower levels of neuroticism.  However, we exploit the extensive information on parents provided by the German Socio-Economic Panel (SOEP) data to control for the effect of the parent’s personality on children. Thus, our estimates for the effect of parental involvement in the childrens personality should reflect the ability of the parents to shape the personality of their children through adequate parenting. 
+This paper is structured as follows, Section 2 and 3 has a description of our data and the methodology for the analysis. Section 4 discusses the results. Section 5 concludes the paper.
+
+\section{Methodology}
+
+This work builds on the literature which shows that personality matters for socio-economic outcomes. For instance, Bowles et al. (2001)\footnote{Bowles et al. (2001) investigate the large income variation between individuals with similar educational levels and cognitive skills. They propose a model that attributes part of the income variance to individual sets of personality characteristics which are rewarded or punished in the labor market.}  propose a framework describing the direct channel throughout which personality traits affect productivity in the work environment and Heckman et al. (2006) extend this framework by providing evidence that non-cognitive skills not only affect labor market outcomes directly but also affect schooling decisions, which are well known to determine later earnings. While the theoretical literature exploring the transmission channels might be quite novel, there is an extensive body of empirical studies trying to identify which individual characteristics are better predictors of success. The current state of the research on this topic will be illustrated in our model justification after presenting our model in the following section.
+
+\subsection{Model assumptions and hypothesis}
+
+Our project follows the theoretical approach of Doepke and Zibotti (2017). They assume that parents play a crucial role in the character shaping of their child and can influence the formation of attitudes and preferences via their parenting style. More specifically, they invest in the child in a way which maximizes the child’s expected welfare and economic success. So, parents are not just able to influence their children’s attitudes and preferences, but also use their impact to shape their children in a beneficial way. \newline
+
+\textit{\centering Assumption 1: Parents can influence their children’s attitudes and preferences via their parenting and try to maximize children’s expected welfare and economic success.}
+\newline\newline
+The theoretical model on transmission of character traits is supported by findings in the recent literature (see e.g. Zumbuehl et al. (2018), Feinstein (2000)). We assume that parents are aware of which characteristics have a positive or negative effect on outcomes such as educational and economic success and therefore shape their children in a more promising way by influencing the formation of those personality traits. \newline
+
+\textit{\centering Assumption 2: Parents are aware of which personality traits are relevant for expected future success.} \newline \newline
+However, it is not easy to identify parenting styles and it is also not clear whether parents influence their children solely in a conscious way, which could be measured by educational goals and parenting style of the parents, or whether some channels work subconsciously. The SOEP recently implemented a battery of questions which aim to provide data about parenting styles and educational goals, but as the sample size is still very small we will not focus on that part in this project. \newline
+Instead, we follow Zumbuehl et al. (2018) and use parental involvement in the children’s lives as an instrument. However, while Zumbuehl et al. show that parental involvement shapes the children to be more similar to their parents in terms of trust and risk preferences, we assume that more involved parents have more time or opportunities to educate and impact their children. Parental involvement therefore also is a measure of the extend to which parents can apply parenting styles, pursue educatiobal goals etc.  \newline
+
+\textit{\centering Assumption 3: Parental involvement is a measure for the intensity of parenting.} \newline \newline
+Those three assumptions combined lead to the hypothesis we want to investigate on in our project. If parents know which character traits are important for future success, are able to influence the development of their children’s personality and want to maximize their children’s expected utility from future success, we would expect that parents influence their children's personality formation in a way which goes further than making them similar to themselves. This means that parents will induce the formation of beneficial traits even though they themselves might not have developed pronounced beneficial characteristics.As we cannot directly investigate the impact of parenting, we need assumption 3 to analyze whether parents are able to shape their children's personality. Given parental involvement is a measure for the intensity of parenting, we expect parental involvement to have a significant effect on the character traits of their children, as it reflects the opportunity to influence the character formation of the child. More precisely, we expect parental involvement to have significant positive effects on those traits which literature shows to be beneficial and significant negative effects for those traits literature found unfavorable effects for, respectively.\newline
+
+\textit{\centering Hypothesis: Parental involvement has a significant beneficial effect on character traits of their children.}\newline
+
+
+\subsection{Model justification}
+Our model does not contradict the approach by Zumbuehl et al. but rather supplements their idea. For trust and risk preferences, there is no clear direction on whether high or low levels are more beneficial as this depends on the environment one interacts in (Zumbuel et al. (2018)). In contrast, there is a growing literature which shows that other character traits have distinct effects on educational and economic success. There is for example conclusive evidence in the literature that locus of control has significant effects on the aquisition of skills and labor market success (see e.g. Feinstein (2000), Heckman et al. (2006) or Almund et al (2011)). Feinstein (2000) and Heckman et al. (2006) also find similar effects for self-esteem. Moreover, patience is found to be a strong predictor for educational success (Dohmen et al. (2016)). Also, evidence from several papers is showing that some of the Big Five personality traits influence future performance. Nyphus and Pons (2005) as well as Blanden and Machmillen (2007) find that neuroticism has a negative impact on future outcomes, whilest conscientiousness and openess seem to have positive effects (see e.g. Judge et al. (1999) or Anger and Heinick (2008)). Some papers indicate, that also extraversion (Blanden and Machmillen (2007)), agreeableness  (Feinstein (2000)) and depending on the context also positive reciprocity might have an impact. However, while the general direction for those traits is clear, Anger and Heineck (2008) find differences between genders regarding how conscientiousness and and openess might exert positive influence on socio-economic outcomes. It would be of interest to analyze whether parents can influence their children’s personality in the expected direction for all the character traits mentioned above. Nevertheless, our analysis will only focus on investigating whether parental involvement significantly influences the shaping of locus of control and the Big Five personality traits, namely openess to experience, conscienctiousness, extraversion, agreeableness and neuroticism.
+
+We chose those six personality traits for several reasons. First of all, there is striking evidence for the effects of locus of control as well as conscientiousness and neuroticism on educational and economic success. Taking this into account, if parents know what is best for their children and therefore influence their character forming, we would expect to find significant results for the measures chosen. Moreover, the other Big Five personality traits offer different results between genders or limited evidence on their impact, so analyzing all of them and comparing the results is promising. Second, concerning the other traits not part of our analysis, we face at least one of two issues regarding the data provided by SOEP: Either there is no reliable measure to gather information on the trait we are interested in, which applies for example for self-esteem. We found only one item in SOEP which is related to self-esteem. Therefore, we would suffer serious measurement errors when using this measure and the validity of related results would be questionable. Or SOEP provides a validated measure measuring the trait we are interested in, for example the incentivized experiments on time preferences or reciprocity, but the sample size for those individuals does not allow us to use it. This is because there are not enough observations for children and their parents to run meaningful regressions, if there are any. Finally, the Big five personality traits and the locus of control measure provided in SOEP are well-validated, widely used measures which were measured for the vast majority of participants. We therefore have information on these traits for parents and their children.
+\subsection{Model specification}
+To test our hypothesis we run simple OLS regressions on all selected personality traits of individuals of age 17 in the child sample. The regression model reads as this:
+\begin{equation}
+Y_i=\alpha +\beta_1*I_i+\beta_2*P_i+\beta_3*C_i+u_i
+\end{equation}
+
+where $Y_{i}$ equals the observed measure of the personality trait for child $i$, $I_i$ is a vector which covers the maternal and paternal involvement scores for the parents of child $i$, $P_i$ is a vector containing the measures for the different personality traits of each parent of child "i", $C_i$ stands for a vector containing a series of socio-economic and family related control measures regarding child $i$. Finally, $u_i$ captures the unobservables.
+
+\section{Data}
+This empirical analysis uses data of the 33rd wave of the German Socio-Economic Panel (SOEP), a representative panel study of households in Germany conducted annualy since 1984. The SOEP collects socio-economic information on all members of over 12.000 households. The questionnaires given to the adult members of the sampled households cover a wide range of topics from biography over family life to personality, preferences and happiness. Since the year 2000, every child in the household turning 18 the following year enters the survey filling out the Youth Questionnaire. This questionnaire gathers information regarding childhood, schooling and the relation to the parents. \newline
+To analyse the effects of parental involvement on children's personality traits, we use the data available in the Youth Questionnaire which provides information on  parental involvement in the child’s life and the personality of the children. We have a starting sample of around 3900 individuals who filled the questionnaire at the age of 17 and provided information on their personality and parental involvement. \newline
+
+In the following section we will describe the most important variables used in our analysis and how they were created.
+
+\subsection{Personality Traits}
+
+In the questionnaire, SOEP provided specific items which measured the interviewee’s Big Five personality traits (openness to experience, conscientiousness, extraversion, agreeableness, neuroticism) and locus of control. 
+To illustrate, openness in experience refers to individuals' intellectual curiosity and whether someone is eager to learn. A conscious individual is more likely to achieve due to strong work ethic and a focused learning strategy. Agreeableness is an attitude associated with compassion and willingness to cooperate. Neurotic individuals experience anxiety and negative emotionality. Extraversion indicates how social and outgoing an individual is (Komarraju et al, 2011). Locus of control measures the level by which an individual believes she has control over the outcome of events in life which can be divided into internal locus of control which displays the grade to which the indicidual beliefs herself can impact outcomes and external locus of control indicating to which extend the indiviual believes external factors influence her success in life (see appendix for detailed item overview).\newline
+
+\subsubsection{Big Five personality traits}
+
+The Big Five personality traits are measured by a 15-item questionnaire with each trait covered by three items. The respondents need to determine the extent to which they agreed on certain statements related to their character. The items have to be answered on a 7-point scale ranging from 1 (“Does Not Apply at All”) to 7 (“Applies Completely”). For example, the item “Considerate, friendly” is referring to the trait agreeableness and “Often worry” is referring to the trait neuroticism. For some items, we inverted the score due to the inverted statement.
+As a result, we can obtain a score of the specific traits of a respondent by averaging the item scores referring to their corresponding trait. The scores are standardized by subtracting mean of variables and divided by its standard deviation. The details on grouping and inverting of the items are included in Appendix.
+
+\subsubsection{Locus of control}
+
+Locus of control is measured by a 10-item questionnaire including 5 items for external and 5 items for internal locus of control. Similar to above, the respondents are required to determine the extent to which they agree on certain statements related to their character based on a 4-point scale ranging from 1 (“disagree completely”) to 4 (“agree completely”).
+We create the locus of control score of an individual, following the approach from Pinger et al. (2010). We conduct a principal component analysis for dimensionality reduction. Note that in order to create the index from proxies measuring internal and external locus we invert the values of some of the 10 proxies. The generated index shall be interpreted as follows. Higher scores are an indication for an individual displaying greater internal locus while low scores indicate someone who displays external locus of control. As in all the measured personality traits in this work, the final scores are standardized by subtracting mean of variables and dividing by its standard deviation. The details of grouping, inverting and the loadings of items that generate the index are included in Appendix Table. It is worth mentioning that the validity of reducing the 10 SOEP items into on index is discussed in detail by Pinger et al. The factor loadings obtained for our sample are similar to those obtained by Pinger et al. as an indication that our samples have a similar data structure and that this method can be applied without major information loss.
+
+
+\subsection{Parental Involvement}
+For the creation of the parental involvement score we follow the approach by Zumbuehl et al. (2018).
+The SOEP includes specific items regarding parental involvement in the Youth Questionnaire. It consists of five items which were measured combined for both parents and relate to school performance and engagement. Additionally, the involvement score takes sixteen proxies of mother's and father’s intensity of involvement in the respondents’ life, eight relating to the mother and eight relating to the father, into account. The adolescents for example had to state to which extent statements as “Parents take part in parents-evening” or  “Mother talks about things that worry you” apply. All the items are measured either as binary variables or on a 4- or 5-point scale. Also, the variables are standardized by the method stated above. We assume parents can choose to participate in their children life if they want such that parental involvement is a kind of general parental investment. By applying the principal component analysis on the parental involvement variables, we constructed two involvement scores, one for the mothers of each adolescent and one for the fathers, respectively. The factor loadings of each proxy are included in Appendix Table. The factor loadings we obtained are similar to those by Zumbuehl et al. (2018).
+
+
+
+\section{Results}
+
+ As presented by Bisin and Verdier (2001) and Doepke and Zibotti (2017) parents play a major role molding preferences, attitudes and personality of their children, so it should be no surprise to observe a relation between the degree of involvement of parents with their children and the development of certain personality traits. This section analyzes the empirical relation between parental involvement and personality of their children in more detail. We begin by identifying the correlation between involvement of each parent and the children’s scores for locus of control, openness, conscientiousness, extraversion, agreeableness and neuroticism for the youth sample. Afterwards, we introduce other socio-economic variables which can affect the development of the children’s personality. Our work innovates in the sense that we include measurements of the parent’s personality. This is meant to capture other possible channels leading to our results, such as more involvement strengthening similarities between children and their parents. Moreover, we split our sample in male and female adolescents in order to investigate on potential differences in sexes and special mother-daughter or father-son relations. Finally we extend our analysis to the kids sample to find out whether the effects of parental involvement are already present at an early stage in childhood.\newline
+We provide results on all character traits mentioned above, however we are mostly interested in knowing whether parental involvement encourages the development of those traits that matter for success, namely locus of control, conscientiousness and neuroticism.
+
+
+\subsection{Correlation between parental involvement and the children's personality}
+
+
+To get a first impression on the relation between parental involvement and the childrens character traits, we run some simple regressions. 
+Table 3 reports the results of regressing the scores for locus of control and the Big Five traits of children in the youth sample on the generated scores for maternal and paternal involvement. The results indicate a relation between the involvement of the parents and the personality of the children for all measured traits. As for the traits which are better predictors of success one can observe that the involvement of the parent seems to be shaping these in the correct direction. We observe that both, maternal and paternal involvement have significant positive effects on locus of control and conscientiousness. As for neuroticism, we observe that only paternal involvement has a significant negative effect whilest their is no effect of maternal involvement on neuroticism of the child. \newline 
+However, the involvement of the parents differs a lot depending on the family and socio-economic background. Table 4 reports the correlation coefficients between maternal and paternal involvement and some control variables which might have significant effects on parental involvement and the development of the children's personality. We find that parents with higher education and those with higher income are significantly more involved in their children's upbringing. Thus, we control for these factors by including the per capita household income\footnote{We generate this variable by taking the logarithms of the net household income divided by the amount of persons in the household}, and years of education of each parent to the regression.\footnote{Education in years is a variable generated by the SOEP conveying information about the type of education pursuit by the individual and the degree obtained.} We also check whether both parents still live with the adolescent as Table 4 shows that parents, especially the father, who no longer live with the family are significantly less involved. We control for possible effects of the age difference between child and parent, as we also find that it is affecting involvement, especially for the fathers.  Finally, we add the migration background to our controls as prior literature (Bisin and Verdier, 2001) indicates that this might play a role in the transmission of culture and Zumbuehl et al. (2018) find this control to have effects on the transmission of attitudes such as risk.\footnote{The migration variable used in the regression takes the value of one if the child or at least one of the parents has a migration background.}
+
+
+
+
+\subsection{Parental roles and relations}
+As discussed in the previous section, mothers and fathers might differ significantly regarding some of the traits we study. Furthermore, the assymetries between the coefficients for maternal and paternal involvement reveal specific roles for mothers and fathers in the development of the child's personality. By spliting the sample by gender we find evidence that suggests the existence of mother and father roles as well as specific mother-daughter and father-son relationships. Figure 1 compares effects of maternal and paternal involvement on personality traits among the entire sample and each subsample.  as Figure 2 displays the differences between the estimated coefficients for paternal and maternal involvement. (see appendix for the regression tables on the female and male subsample). Our results suggest that fathers have a notable role in the development of conscientiousness for daughters and sons, while maternal involvement has almost no effect on this traits This result is even more impressive considering the fact that in our sample, mother's scores for conscientiousness are on average higher than father's scores. On the other hand, mothers seem to have a notable role in the formation of agreeableness. \newline
+Regarding the specific mother-daughter and father-sons relations, we find that for the son's locus of control it is the paternal involvement that shows significant effects while for the daughters only the mother's involvement appears to matter. For neuroticism the involvement of the mother still increases the score for both, but the coefficient loses any statistical significance. The fathers involvement  significantly decreases only the neuroticism scores for the sons and has no significant effect on the daughters neuroticism.\newline
+After decomposing the regression results for the youth sample, in the following section we will compare the effects just described with the results for children age 10 to 11.
+
+
+
+\section{Conclusion}
+Our emprical study reveals that parents who are more participative in the life of their children have children that display stronger those personality traits that facilitate the achievement of better educational and future labor market outcomes. We provide further evidence to the literature (e.g. Zumbuehl et al.), that the personality of the parents does matter for the development of the children's personality. We also find evidence for differentiated roles for mothers and fathers as well as some evidence for specific relations between mothers-daughters and fathers-sons. Regarding the former, our results indicate that paternal involvement is relevant for developing conscientiousness in daughters and sons while maternal involvement is relevant developmening agreeableness in both as well. As for the latter our results suggest that the maternal involvement has a stronger effect increasing the scores for locus of control on daughters, while paternal involvement has a stronger effect increasing the scores for locus of control and decreasing for neuroticism scores on sons. \newline
+Our results have important implications for intergenerational mobility. They not only provide evidence of the ability of parents to shape their children, but more importantly, indicate that parental involvement is an important mechanism to develop personality traits that might lead to better socio-economic outcomes, even when parents do not display those traits themselves. \newline 
+Yet, little is known about how the parental involvement channel works shaping those traits. Questions such as whether parents consciously or subconsciously impact their children still need to be addressed. Future research might be able to investigate this and many other issues thanks the growing data being collected on parenting styles and educational goals. This might allow us to identify the key aspects that make parental involvement work positively on children and might help policy makers create effective programs to reduce intergenerational persistence.
+
+
+
+
+
+
+
+\pagebreak
+\section{Tables and Figures}
+
+\begin{table}[htp!]
+	\small
+	\centering
+	\begin{threeparttable}
+		\caption{Factor loadings parental involvement measures}
+		\begin{tabular}{@{}lll@{}}
+			\toprule
+			Item in the Questionnaire & Involvement Mother & Involvement Father \\ \midrule
+			Parents show interest in performance & 0.211 & 0.100 \\
+			Parents take part in parents-evening & 0.148 & 0.091 \\
+			Parents come to teacher office hours & 0.113 & 0.047 \\
+			Parents visit teacher outside office hours & 0.084 & 0.009 \\
+			Parents involved in at least one school activity & 0.162 & 0.093 \\
+			Mother talks about things you do & 0.339 &  \\
+			Mother asks you prior to making decision & 0.358 &  \\
+			Mother expresses opinion on something you do & 0.378 &  \\
+			Mother is able to solve problems with you & 0.364 &  \\
+			Mother asks your opinion on family matters & 0.389 &  \\
+			Mother gives reason for making decision & 0.392 &  \\
+			Mother talks about things that worry you & 0.183 &  \\
+			Mother helps with studying & 0.162 &  \\
+			Father talks about things you do &  & 0.378 \\
+			Father asks you prior to making decision &  & 0.368 \\
+			Father expresses opinion on something you do &  & 0.367 \\
+			Father is able to solve problems with you &  & 0.387 \\
+			Father asks your opinion on family matters &  & 0.373 \\
+			Father gives reason for making decision &  & 0.380 \\
+			Father talks about things that worry you &  & 0.276 \\
+			Father helps with study &  & 0.231 \\ \bottomrule
+		\end{tabular}
+		\begin{tablenotes}[flushleft]
+			\footnotesize
+			\item 
+			Note:
+			the data, including whatever notes are needed.
+		\end{tablenotes}
+	\end{threeparttable}
+\end{table}
+
+
+
+\begin{table}[htp!]
+	\small
+	\centering
+	\begin{threeparttable}
+		\caption{Personality items in the SOEP questionnaires}
+		\begin{tabular}{@{}ll@{}}
+			\toprule
+			Personality trait & Question in the SOEP \\ \midrule
+			Big-5 Personality Traits & Personal Characteristic \\ \midrule
+			& Lively imagination \\
+			Openness & Introduce new ideas \\
+			& Importance of esthetics \\ \midrule
+			& Communicative \\
+			Extraversion & Am outgoing/sociable \\
+			& Reserved (inverted) \\ \midrule
+			& Carryout duties efficiently \\
+			Conscientiousness & Work carefully \\
+			& Am lazy (inverted) \\ \midrule
+			& Can forgive others \\
+			Agreeableness & Considerate, friendly \\
+			& Abrasive towards others (inverted) \\ \midrule
+			& Often worry \\ 
+			Neuroticism & Am nervous \\
+			& Be relaxed, no stress (inverted) \\ \midrule
+			Locus of Control & Opinion \\ \midrule
+			& Success Through Working Hard \\
+			& Control Over My Own Destiny \\
+			Internal Locus of Control & Soc., Pol. Activity Makes A Difference \\
+			& Doubt Myself Faced Difficulties (inverted) \\
+			& Have Little Control Over My Life (inverted) \\ \midrule
+			& In Comparison Do Not Have What I Deserve \\
+			& What You Achieve Is A Question Of Luck \\
+			External Locus of Control & Others Have Often Controlled My Life \\
+			& Opportunities Depend On Soc. Circumstance \\
+			& Talents You Have At Birth Are V. Import. \\ \bottomrule
+		\end{tabular}
+		\begin{tablenotes}[flushleft]
+			\footnotesize
+			\item 
+			Note:
+			the data, including whatever notes are needed.
+		\end{tablenotes}
+	\end{threeparttable}
+\end{table}
+
+\input{../../out/analysis/regression_result}
+
+
+
+\pagebreak
+
+\clearpage
+
+\centering
+\includegraphics[scale=0.7]{../../out/figures/figure_maternal_involvement_personality.jpeg}
+
+\includegraphics[scale=0.7]{../../out/figures/figure_paternal_involvement_personality.jpeg}
+
+\includegraphics[scale=0.7]{../../out/figures/figure_parental_involvement_difference.jpeg}
+
+\includegraphics[scale=0.7]{../../out/figures/figure_parental_involvement_added_up.jpeg}
+
+\pagebreak
+
+
+
+\pagebreak
+\nocite{*}
+\bibliographystyle{plain}
+\singlespacing
+
+\small
+\bibliography{refs}
+
+\end{document}
